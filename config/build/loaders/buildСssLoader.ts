@@ -11,9 +11,9 @@ export function buildCssLoader(isDev: boolean) {
         loader: 'css-loader',
 
         options: {
+          esModule: true,
           modules: {
-            auto: (resourcePath: string) =>
-              Boolean(resourcePath.includes('.module.')),
+            auto: (resourcePath: string) => resourcePath.includes('.module.'),
 
             localIdentName: isDev
               ? '[name]--[hash:base64:5]'

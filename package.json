@@ -38,16 +38,15 @@
     "typescript": "^5.4.4",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-dev-server": "^5.0.4",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24"
   },
   "dependencies": {
-    "@mantine/core": "^7.7.1",
-    "@mantine/hooks": "^7.7.1",
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.24",
     "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
   }
 }
+

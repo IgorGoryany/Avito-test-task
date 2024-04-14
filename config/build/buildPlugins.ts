@@ -3,7 +3,7 @@ import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 
-import { BuildOptions } from './types/config';
+import type { BuildOptions } from './types/config';
 
 export function buildPlugins({
   paths,

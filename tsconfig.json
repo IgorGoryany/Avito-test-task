@@ -27,7 +27,8 @@
     "./src/**/*.tsx",
     "./config/**/*.ts",
     "**/*.{ts,tsx}",
-    "./.eslintrc.js"
+    "./.eslintrc.js",
+    "./webpack.config.ts"
   ],
   "exclude": ["node_modules"]
 }
