@@ -1,2 +1,21 @@
 .button {
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.clear {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.contained {
+  padding: 10px 20px;
+  background: #91b4ff;
+}
+
+.outlined {
+  background: transparent;
+  border: 1px solid #91b4ff;
 }

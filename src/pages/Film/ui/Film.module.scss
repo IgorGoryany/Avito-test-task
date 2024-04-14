@@ -1,0 +1,39 @@
+.filmContainer {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+
+  &__image {
+    img {
+      width: 250px;
+    }
+  }
+
+  &__info {
+    padding-top: 30px;
+    * {
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}
+
+.about {
+  margin-top: 30px;
+  font-size: 24px;
+  &__item {
+    display: flex;
+    align-items: baseline;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+  }
+}
+
+.key {
+  width: 160px;
+}

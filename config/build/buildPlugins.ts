@@ -8,7 +8,7 @@ import type { BuildOptions } from './types/config';
 export function buildPlugins({
   paths,
   isDev,
-  apiUrl,
+  apiKey,
 }: BuildOptions): webpack.WebpackPluginInstance[] {
   const plugins = [
     new HtmlWebpackPlugin({
@@ -21,8 +21,7 @@ export function buildPlugins({
     }),
     new webpack.DefinePlugin({
       __IS_DEV__: JSON.stringify(isDev),
-      __API__: JSON.stringify(apiUrl),
-      // __PROJECT__: JSON.stringify(project),
+      __API_KEY__: JSON.stringify(apiKey),
     }),
 
     new ForkTsCheckerWebpackPlugin({

@@ -1,0 +1,20 @@
+.filmCard {
+  width: 200px;
+  height: 350px;
+  color: rgb(16, 15, 15);
+
+  img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}

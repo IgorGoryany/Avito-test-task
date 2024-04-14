@@ -3,3 +3,5 @@ declare module '*.scss' {
   const classNames: IClassNames;
   export = classNames;
 }
+
+declare const __API_KEY__: string;
